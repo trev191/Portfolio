@@ -29,7 +29,6 @@
           <a class="topmenu" href="#about-me">About Me</a>
           <a class="topmenu" href="#skills">Skills</a>
           <a class="topmenu" href="#projects">Projects</a>
-          <a class="topmenu" href="#recommendations">Recommendations</a>
 
         </div>
       </div>    
@@ -121,7 +120,7 @@
             <ul>
               <li>Designed a fully functional Slack clone – with direct messaging system, channels, threads, workspaces, and user profiles/login – in under 6 days</li>
               <li>Assembled RESTful backend API calls to Docker database using Express.js, Node.js, and OpenAPI</li>
-              <li>Structured frontend with responsive web design using React and Material-U</li>
+              <li>Structured frontend with responsive web design using React and Material-UI</li>
             </ul>
           </div>
           <hr>
@@ -149,58 +148,12 @@
     </section>
     <div style="clear:both;"></div>
 
-    <!-- Recommendations -->
-    <section id="recommendations">
-      <h2>Recommendations</h2>
-      <div style="clear:both;"></div>
-      <div class="all_recommendations" id="all_recommendations">
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Jane has been a pleasure to work with and is very detailed and careful in the work she does.
-          She is never afraid to take on a new challenge.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          It's been a great past 5 years working with Jane. I can tell she truly cares about the team and the company.
-          She is also really funny.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          I had a blast working with Jane the past year since I joined her team. She never fails to push the team through
-          a difficult task and help us out whenever we get stuck.
-          <span>&#8221;</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Recommendation Form -->
-    <section id="contact">
-      <div class="flex_center">
-        <fieldset>
-          <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)"> <br/>
-          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
-          <div class="flex_center">
-            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
-          </div>
-        </fieldset>
-      </div>
-    </section>
-
     <div class="iconbutton">
       <a href="#home">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
           <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       </a>
-    </div>
-
-    <div class="popup" id="popup" class="flex_center">
-      <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3>Thanks for leaving a recommendation!</h3>
-      <button onclick="showPopup(false)">Ok</button>
     </div>
   </body>
 </html>
